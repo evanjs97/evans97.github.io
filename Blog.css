@@ -1,3 +1,35 @@
+.comments {
+    padding: 2em;
+}
+
+.section_title{
+    font-family: "Times New Roman", Times, serif;
+    padding-bottom: .25em;
+}
+
+.body_style {
+    padding-top: 12em;
+    background-color: rgba(62, 69, 81, 0.1);
+    padding-bottom: 6em;
+    margin: 0;
+    color: black;
+    text-align: center;
+
+}
+
 .post {
-    padding-top: 7em;
+    background-color: #263238;
+}
+
+.link_style{
+    padding-bottom: 5em;
+}
+
+.link_style a:link {
+    color: white;
+}
+
+.link_style a:hover{
+    text-decoration: none;
+    color:rosybrown;
 }

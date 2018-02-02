@@ -1,7 +1,7 @@
 class Header extends React.Component {
   render(){
     return(
-        <h2 className="font-weight-light text-dark text-center">Netflix Original Reviews</h2>
+        <h2 className="text-dark text-center title">Netflix Original Reviews</h2>
     )
   }
 }
@@ -13,7 +13,7 @@ class NavBar extends React.Component {
         <div className="navbar-collapse collapse">
           <ul className="nav navbar-nav mr-auto">
             <li className="nav-item active">
-              <a className="nav-link title" href="index.html">Netflix Original Reviews</a>
+              <a className="nav-link title" href="http://www.netflixoriginalreviews.com">Netflix Original Reviews</a>
             </li>
             <li className="nav-item active pl-5 pt-2">
               <a className="nav-link" href="index.html">Home</a>
@@ -35,4 +35,4 @@ class App extends React.Component {
     )
   }
 }
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("header"));

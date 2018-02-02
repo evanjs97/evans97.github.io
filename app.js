@@ -1,14 +1,16 @@
 class Post1 extends React.Component {
   render() {
     return (
-      <div className="row post">
+      <div className="row">
         <div className="col-2">
         </div>
-        <div className="col-8">
-          <div className="jumbotron m-5 p-5 bg-light text-dark">
-            <h1 className="display-4 font-italic">This will be where the title of the first blog post goes</h1>
-            <h3 className="pt-5 font-weight-light">this is where the beginning of each blog post will be visible so that the user can get a snapshot of the blog post</h3>
-          </div>
+        <div className="col-8 link_style">
+          <a href="">
+            <div className="jumbotron post">
+              <h1 className="display-4">This Will Be Where the Title of the First Blog Post Goes</h1>
+              <h3 className="pt-5 font-weight-light">this is where the beginning of each blog post will be visible so that the user can get a snapshot of the blog post...</h3>
+            </div>
+          </a>
         </div>
         <div className="col-2">
         </div>
@@ -23,11 +25,34 @@ class Post2 extends React.Component {
       <div className="row">
         <div className="col-2">
         </div>
-        <div className="col-8">
-          <div className="jumbotron m-5 bg-light text-dark">
-            <h1 className="display-4 font-italic">This will be where the title of the second blog post goes</h1>
-            <h3 className="pt-5 font-weight-light">this is where the beginning of each blog post will be visible so that the user can get a snapshot of the blog post</h3>
-          </div>
+        <div className="col-8 link_style">
+          <a href="">
+            <div className="jumbotron post">
+              <h1 className="display-4">This Will Be Where the Title of the Second Blog Post Goes</h1>
+              <h3 className="pt-5 font-weight-light">this is where the beginning of each blog post will be visible so that the user can get a snapshot of the blog post...</h3>
+            </div>
+          </a>
+        </div>
+        <div className="col-2">
+        </div>
+      </div>
+    )
+  }
+}
+
+class PostTesting extends React.Component {
+  render() {
+    return (
+      <div className="row">
+        <div className="col-2">
+        </div>
+        <div className="col-8 link_style">
+          <a href="">
+            <div className="jumbotron post">
+              <h1 className="display-4">This Will Be Where the Title of the Third Blog Post Goes</h1>
+              <h3 className="pt-5 font-weight-light">this is where the beginning of each blog post will be visible so that the user can get a snapshot of the blog post...</h3>
+            </div>
+          </a>
         </div>
         <div className="col-2">
         </div>
@@ -39,11 +64,12 @@ class Post2 extends React.Component {
 class App extends React.Component {
   render() {
     return (
-      <div className="container-fluid bg-dark">
+      <div className="container-fluid body_style">
         <Post1/>
         <Post2/>
+        <PostTesting/>
       </div>
     )
   }
 }
-ReactDOM.render(<App />, document.getElementById("page"));
+ReactDOM.render(<App />, document.getElementById("front_page"));
