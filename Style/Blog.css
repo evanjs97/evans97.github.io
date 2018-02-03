@@ -7,23 +7,32 @@
     padding-bottom: .25em;
 }
 
-.body_style {
-    padding-top: 12em;
+.about_style {
     background-color: rgba(62, 69, 81, 0.1);
-    padding-bottom: 6em;
     margin: 0;
     color: black;
     text-align: center;
+}
 
+.body_style {
+    background-color: rgba(62, 69, 81, 0.1);
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+
+.post_head {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.post_content {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .post {
     background-color: #263238;
 }
 
-.link_style{
-    padding-bottom: 5em;
-}
 
 .link_style a:link {
     color: white;

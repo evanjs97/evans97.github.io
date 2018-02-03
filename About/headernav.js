@@ -19,7 +19,7 @@ class NavBar extends React.Component {
               <a className="nav-link" href="http://www.netflixoriginalreviews.com">Home</a>
             </li>
             <li className="nav-item nav_item">
-              <a className="nav-link" href="About">About Me</a>
+              <a className="nav-link" href="../About">About Me</a>
             </li>
           </ul>
         </div>

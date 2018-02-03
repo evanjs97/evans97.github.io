@@ -25,10 +25,8 @@ class AboutMe extends React.Component {
 class App extends React.Component {
   render() {
     return (
-      <div className="container-fluid body_style">
+      <div className="container-fluid body_style about_style">
         <AboutMe/>
-        {/*<Post1/>*/}
-
       </div>
     )
   }

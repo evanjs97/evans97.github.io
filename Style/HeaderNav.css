@@ -1,0 +1,41 @@
+@media (min-width: 320px) {
+    .title {font-size: .8em}
+    .nav_item {font-size: .6em; padding-top: .3em; padding-left: 1em}
+}
+
+@media (min-width: 544px) {
+    .title {font-size: 1.0em}
+    .nav_item {font-size: .8em; padding-top: .3em; padding-left: 5em}
+}
+
+@media (min-width: 768px) {
+    .title {font-size: 1.2em}
+    .nav_item {font-size: .8em; padding-top: .5em; padding-left: 7em}
+}
+
+@media (min-width: 992px) {
+    .title {font-size: 1.6em}
+    .nav_item {font-size: 1.0em; padding-top: .4em; padding-left: 7em}
+}
+
+@media (min-width: 1200px) {
+    .title {font-size: 1.6em}
+    .nav_item {font-size: 1.0em; padding-top: .6em; padding-left: 7em}
+}
+
+
+.nav_item {
+
+}
+
+.bar {
+    background-color: #212121;
+}
+
+.bar a{
+    color:#d50000;
+}
+
+.bar a:visited{
+
+}
