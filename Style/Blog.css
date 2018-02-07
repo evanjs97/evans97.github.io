@@ -23,20 +23,47 @@
 
 .post_head {
     font-family: "Times New Roman", Times, serif;
+    padding-top: 1em;
 }
 
 .post_content {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-bottom: 1em;
 }
 
 .post {
-    background-color: #263238;
+    background-color: #FDF3E7;
+    color: black;
 }
 
-
-.link_style a:link {
+.post_the_end_of_the {
+    background-image: url("../Images/the-end-of-the-fucking-world.jpg");
+    background-repeat: no-repeat;
     color: white;
+    padding-bottom: 15em;
+
 }
+
+.movie_title{
+    position: absolute;
+    bottom: 0;
+    padding: .5em;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.h3 span{
+    background-color: black;
+}
+
+.header_image {
+    height: 100%;
+    width: 100%;
+    padding-top: 3em;
+}
+
+/*.link_style a:link {*/
+    /*color: black;*/
+/*}*/
 
 .link_style a:hover{
     text-decoration: none;

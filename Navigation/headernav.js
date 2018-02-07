@@ -13,10 +13,10 @@ class NavBar extends React.Component {
         <div className="navbar-collapse collapse">
           <ul className="nav navbar-nav mr-auto">
             <li className="nav-item active title">
-              <a className="nav-link" href="http://www.netflixoriginalreviews.com/Home">Netflix Original Reviews</a>
+              <a className="nav-link" href="../Home">Netflix Original Reviews</a>
             </li>
             <li className="nav-item nav_item">
-              <a className="nav-link" href="http://www.netflixoriginalreviews.com/Home">Home</a>
+              <a className="nav-link" href="../Home">Home</a>
             </li>
             <li className="nav-item nav_item">
               <a className="nav-link" href="../About">About Me</a>
