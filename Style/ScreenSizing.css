@@ -1,57 +1,147 @@
+@media (min-width: 20px) {
+    .post {background:none;}
+    .link_style{
+        margin-left:0em;
+        margin-right:0em;
+    }
+    .content {display:none;}
+    .title_overlay{font-size:.8em}
+}
 @media (min-width: 320px) {
     h1 {font-size: 1em}
-    h3 {font-size: 1.25em}
-    .link_style {padding-bottom: 0em}
-    .title {font-size: .8em}
-    .body_style {padding-top: 2em}
-    .body_style {height: 100vh}
+    h3 {font-size: .8em}
     .about_style {height: 100%; padding-top: 6em}
-    .post {display: none}
+    .post {background:none;}
+    .link_style{
+        margin-left:0em;
+        margin-right:0em;
+    }
+    .content {display:none;}
+    .title_overlay{font-size:1.1em}
 }
 @media (min-width: 480px){
+    h3 {font-size: .8em;}
     .about_style {height: 100vh; padding-top: 6em}
-    .post {display: none}
+    .content {display:none;}
+    .post {background:none;}
+    .link_style{
+        margin-left:0em;
+        margin-right:0em;
+    }
+    .link_style p{font-size:.45em;}
 
 }
 @media (min-width: 544px) {
     h1 {font-size: 1.5em;}
-    h3 {font-size: 1.3em;}
-    .link_style {padding-bottom: 1em}
-    .title {font-size: 1.0em}
-    .body_style {padding-top: 4em}
-    .blog_height {height: 100%}
+    h3 {font-size: .9em;}
     .about_style {height: 100vh; padding-top: 6em}
-    .post {display: none}
+    .content {
+        display: inline;
+        padding-top:.2em;
+    }
+    .post {background: linear-gradient(to right, rgba(62, 69, 81,0),#FDF3E7)}
+    .link_style{
+        margin-left:1em;
+        margin-right:1em;
+    }
+    .link_style p{font-size:.5em;}
+    .title_overlay{font-size:.8em}
 }
 
 @media (min-width: 768px) {
     h1 {font-size: 2em;}
-    h3 {font-size: 1.4em;}
-    .link_style {padding-bottom: 2em}
-    .title {font-size: 1.2em}
-    .body_style {padding-top: 5em}
-    .blog_height {height: 100%}
+    h3 {font-size: 1.1em;}
     .about_style {height: 100vh; padding-top: 6em}
+    .content {
+        padding-top:.5em;
+    }
+    .link_style{
+        margin-left:4em;
+        margin-right:4em;
+    }
+    .link_style p{font-size:.65em;}
 }
-
-@media (min-width: 992px) {
+@media (min-width: 850px) {
+    h1 {font-size: 2em;}
+    h3 {font-size: 1.15em;}
+    .about_style {height: 100vh; padding-top: 6em}
+    .content {
+        padding-top:1em;
+    }
+    .link_style{
+        margin-left:6em;
+        margin-right:6em;
+    }
+    .link_style p{font-size:.7em;}
+    .title_overlay{font-size:1em}
+}
+@media (min-width: 1000px) {
     h1 {font-size: 2.5em;}
-    h3 {font-size: 1.5em;}
-    .link_style {padding-bottom: 3em}
-    .title {font-size: 1.4em}
-    .body_style {padding-top: 7em}
-    .blog_height {height: 100%}
+    h3 {font-size: 1.2em;}
     .about_style {height: 100vh; padding-top: 8em}
     .post {display: block}
+    .content {
+        padding-top: 1em;
+    }
+    .link_style{
+        margin-left:8em;
+        margin-right:8em;
+    }
+    .link_style p{font-size:.7em;}
+}
+
+@media (min-width: 1100px) {
+
 }
 
 @media (min-width: 1200px) {
     h1 {font-size: 3em;}
-    h3 {font-size: 1.5em;}
-    .link_style {padding-bottom: 4em}
-    .title {font-size: 1.6em}
-    .body_style {padding-top: 8em}
-    .blog_height {height: 100%}
+    h3 {font-size: 1.4em;}
     .about_style {height: 100vh; padding-top: 8em}
     .post {display: block}
+    .content {
+        padding-top: 3em;
+    }
+    .link_style{
+        margin-left:11em;
+        margin-right:11em;
+    }
+    .link_style p{font-size:.8em;}
+}
+@media (min-width: 1300px) {
+    h3 {font-size: 1.5em;}
+    .content {
+        padding-top: 3em;
+    }
+    .link_style{
+        margin-left:14em;
+        margin-right:14em;
+    }
+    .link_style p{font-size:.8em;}
+    .title_overlay{font-size:1.3em}
+}
+@media (min-width: 1400px) {
+    h3 {font-size: 1.5em;}
+    .content {
+        padding-top: 3em;
+    }
+    .link_style{
+        margin-left:14em;
+        margin-right:14em;
+    }
+    .link_style p{font-size:1em;}
+    .title_overlay{font-size:1.5em}
+}
+
+@media (min-width: 1600px) {
+    h3 {font-size: 1.5em;}
+    .content {
+        padding-top: 3em;
+    }
+    .link_style{
+        margin-left:14em;
+        margin-right:14em;
+    }
+    .link_style p{font-size:1.2em;}
+    .title_overlay{font-size:1.8em}
 }
