@@ -82,6 +82,10 @@
     color:black;
 }
 
+.intextlink a:hover {
+    text-decoration: none;
+}
+
 .content {
     background-color: #FDF3E7;
     color: black;

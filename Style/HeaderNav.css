@@ -1,3 +1,7 @@
+@media (min-width: 20px) {
+    .title {font-size: .6em}
+    .nav_item {font-size: .4em; padding-top: .3em; padding-left: .6em}
+}
 @media (min-width: 320px) {
     .title {font-size: .8em}
     .nav_item {font-size: .6em; padding-top: .3em; padding-left: 1em}

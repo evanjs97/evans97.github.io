@@ -9,7 +9,7 @@ class EOTFW extends React.Component {
           </div>
           <div className="col content">
             <h3 className="post_head">A Dark and Engaging Journey of Two Outsiders</h3>
-            <p className="post_content">Charlie Covell’s the end of the fucking world, adapted from Charles S. Forman’s comic book of the same name, tells a dark and compelling story packed in the form of a coming of age, romantic comedy, crime thriller...</p>
+            <p className="post_content">...the end of the fucking world, adapted from Charles S. Forman’s comic book of the same name, tells a dark and compelling story packed in the form of a coming of age, romantic comedy, crime thriller...</p>
           </div>
         </div>
       </a>
@@ -17,30 +17,21 @@ class EOTFW extends React.Component {
   }
 }
 
-class Post2 extends React.Component {
+class AlteredCarbon extends React.Component {
   render() {
     return (
-      <div className="row">
-        <div className="col-xs-0 col-sm-1 col-md-1 col-lg-1.5">
+      <a href="../AlteredCarbon">
+        <div className="row link_style">
+          <div className="col post">
+            <img src="../Images/altered_carbon.jpg" alt="" className="movie_image"></img>
+            <div className="title_overlay">The End of the F***ing World</div>
+          </div>
+          <div className="col content">
+            <h3 className="post_head">A Flawed, but Enjoyable Sci-Fi Thriller</h3>
+            <p className="post_content">...altered carbon, based off Richard Morgan’s 2002 novel, takes us on an enthralling journey, set more than 300 years in the future in the Bay Area, California. Full warning, the plot is extremely thick and convoluted...</p>
+          </div>
         </div>
-        <div className="col-xs-12 col-sm-10 col-md-10 col-lg-9 link_style">
-          <a href="">
-            <div className="jumbotron-fluid">
-              <div className="row row-eq-height">
-                <div className="col post_altered_carbon">
-                  <h3 className="movie_title">The End of the F***ing World (2017)</h3>
-                </div>
-                <div className="col post">
-                  <h2 className="post_head">A Dark and Engaging Journey of Two Outsiders</h2>
-                  <p className="post_content">Charlie Covell’s the end of the fucking world, adapted from Charles S. Forman’s comic book of the same name, tells a dark and compelling story packed in the form of a coming of age, romantic comedy, crime thriller...</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div className="col-xs-0 col-sm-1 col-md-1 col-lg-1.5">
-        </div>
-      </div>
+      </a>
     )
   }
 }
@@ -91,9 +82,7 @@ class App extends React.Component {
         <HeaderIMG/>
         <div className="container-fluid main_body">
           <EOTFW/>
-          {/*<Post2/>*/}
-          {/*<Post3/>*/}
-          {/*<PostTest/>*/}
+          <AlteredCarbon/>
         </div>
       </div>
     )
