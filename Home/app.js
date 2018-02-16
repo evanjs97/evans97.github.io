@@ -24,7 +24,7 @@ class AlteredCarbon extends React.Component {
         <div className="row link_style">
           <div className="col post">
             <img src="../Images/altered_carbon.jpg" alt="" className="movie_image"></img>
-            <div className="title_overlay">The End of the F***ing World</div>
+            <div className="title_overlay">Altered Carbon</div>
           </div>
           <div className="col content">
             <h3 className="post_head">A Flawed, but Enjoyable Sci-Fi Thriller</h3>
