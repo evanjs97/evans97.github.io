@@ -8,6 +8,7 @@
     }
     .content {display:none;}
     .title_overlay{font-size:.8em}
+    .header_image{padding-top:2.8em}
 }
 @media (min-width: 320px) {
     h1 {font-size: 1em}
@@ -20,6 +21,8 @@
     }
     .content {display:none;}
     .title_overlay{font-size:1.1em}
+    .header_image{padding-top:3em}
+
 }
 @media (min-width: 480px){
     h3 {font-size: .8em;}
@@ -31,6 +34,7 @@
         margin-right:0em;
     }
     .link_style p{font-size:.45em;}
+    .header_image{padding-top:3em}
 
 }
 @media (min-width: 544px) {
@@ -48,6 +52,7 @@
     }
     .link_style p{font-size:.5em;}
     .title_overlay{font-size:.8em}
+    .header_image{padding-top:3.6em}
 }
 
 @media (min-width: 768px) {
@@ -62,6 +67,8 @@
         margin-right:4em;
     }
     .link_style p{font-size:.65em;}
+    .header_image{padding-top:3.5em}
+
 }
 @media (min-width: 850px) {
     h1 {font-size: 2em;}
@@ -90,6 +97,8 @@
         margin-right:8em;
     }
     .link_style p{font-size:.7em;}
+    .header_image{padding-top:4em}
+
 }
 
 @media (min-width: 1100px) {
