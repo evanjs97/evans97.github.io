@@ -36,30 +36,21 @@ class AlteredCarbon extends React.Component {
   }
 }
 
-class Post3 extends React.Component {
+class BlackMirror4 extends React.Component {
   render() {
     return (
-      <div className="row">
-        <div className="col-xs-0 col-sm-1 col-lg-2">
+      <a href="../BlackMirrorSeason4">
+        <div className="row link_style">
+          <div className="col post">
+            <img src="../Images/black_mirror_4.jpg" alt="" className="movie_image"></img>
+            <div className="title_overlay">Black Mirror Season 4</div>
+          </div>
+          <div className="col content">
+            <h3 className="post_head">Future Technology Remains Dark, but There is Hope</h3>
+            <p className="post_content">Black mirror season 4 continues its predecessors diverse take on future technology with a mostly dark undertone, in 6 new episodes ranging from 41-76 minutes. The episodes are once again a mix of great and mediocre...</p>
+          </div>
         </div>
-        <div className="col-xs-12 col-sm-10 col-lg-8 link_style">
-          <a href="">
-            <div className="jumbotron-fluid">
-              <div className="row">
-                <div className="col post_the_end_of_the">
-                  <h3 className="movie_title">The End of the F***ing World (2017)</h3>
-                </div>
-                <div className="col post">
-                  <h2 className="post_head">A Dark and Engaging Journey of Two Outsiders</h2>
-                  <p className="post_content">Charlie Covell’s the end of the fucking world, adapted from Charles S. Forman’s comic book of the same name, tells a dark and compelling story packed in the form of a coming of age, romantic comedy, crime thriller...</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div className="col-xs-0 col-sm-1 col-lg-2">
-        </div>
-      </div>
+      </a>
     )
   }
 }
@@ -83,6 +74,7 @@ class App extends React.Component {
         <div className="container-fluid main_body">
           <EOTFW/>
           <AlteredCarbon/>
+          <BlackMirror4/>
         </div>
       </div>
     )

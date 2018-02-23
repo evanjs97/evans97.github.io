@@ -4,6 +4,7 @@ class AlteredCarbon extends React.Component {
       <div>
         <h2 className="section_title pb-0">A Flawed, but Enjoyable</h2>
         <h2 className="section_title">Sci-Fi Thriller</h2>
+        <h5 className="section_title">A Review of Altered Carbon</h5>
         <div className="row text-left">
           <div className="col-xs-0 col-sm-1 col-md-2 col-lg-3"></div>
           <div className="col-xs-12 col-sm-10 col-md-8 col-lg-6">
