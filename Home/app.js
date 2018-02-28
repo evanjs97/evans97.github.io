@@ -55,6 +55,25 @@ class BlackMirror4 extends React.Component {
   }
 }
 
+class EverythingSucks extends React.Component {
+  render() {
+    return (
+      <a href="../EverythingSucks">
+        <div className="row link_style">
+          <div className="col post">
+            <img src="../Images/everything_sucks.jpg" alt="" className="movie_image"></img>
+            <div className="title_overlay">Everything Sucks</div>
+          </div>
+          <div className="col content">
+            <h3 className="post_head">A Struggling, but Wholesome Experience</h3>
+            <p className="post_content">...a clear attempt to replicate the success of Stranger Things touching on a similar nostalgia from the past. The main characters are quite alike those present in stranger things, a part of the nerdy crowd...</p>
+          </div>
+        </div>
+      </a>
+    )
+  }
+}
+
 
 class HeaderIMG extends React.Component {
   render() {
@@ -75,6 +94,7 @@ class App extends React.Component {
           <EOTFW/>
           <AlteredCarbon/>
           <BlackMirror4/>
+          <EverythingSucks/>
         </div>
       </div>
     )
