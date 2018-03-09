@@ -60,6 +60,11 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.footer{
+    padding: 4em;
+    background-color: #d50000;
+}
+
 .main_body {
     height: 100%;
     background-color: rgba(62, 69, 81,.1);

@@ -74,6 +74,25 @@ class EverythingSucks extends React.Component {
   }
 }
 
+class Unfortunate extends React.Component {
+  render() {
+    return (
+      <a href="../ASeriesOfUnfortunateEvents">
+        <div className="row link_style">
+          <div className="col post">
+            <img src="../Images/a_series_of_unfortunate_events.jpg" alt="" className="movie_image"></img>
+            <div className="title_overlay">A Series of Unfortunate Events</div>
+          </div>
+          <div className="col content">
+            <h3 className="post_head">A Fun Filled Dark Comedy That Honors its Roots</h3>
+            <p className="post_content">In this weird and dark (but not) comedy, we see the villain Count Olaf (Neil Patrick Harris), a remarkably stupid individual, be outwitted by the Baudelaire children numerous times</p>
+          </div>
+        </div>
+      </a>
+    )
+  }
+}
+
 
 class HeaderIMG extends React.Component {
   render() {
@@ -81,6 +100,14 @@ class HeaderIMG extends React.Component {
       <div className="">
         <img className="header_image" src="../Images/Header.png" alt="HeaderImage"></img>
       </div>
+    )
+  }
+}
+
+class Footer extends React.Component {
+  render() {
+    return(
+      <div className="footer"></div>
     )
   }
 }
@@ -95,7 +122,9 @@ class App extends React.Component {
           <AlteredCarbon/>
           <BlackMirror4/>
           <EverythingSucks/>
+          <Unfortunate/>
         </div>
+        <Footer/>
       </div>
     )
   }
