@@ -31,9 +31,6 @@ class EverythingSucks extends React.Component {
               achieving what they wanted. This successful finale makes the show as a whole, much more relatable and
               real in our world where endings often lack any bitterness at all. <i>Everything Sucks</i> is a solid watch,
               but not something you should put near the top of your list.</p>
-            <p></p>
-            <p></p>
-            <p></p>
           </div>
           <div className="col-xs-0 col-sm-1 col-md-2 col-lg-3"></div>
         </div>

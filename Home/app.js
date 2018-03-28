@@ -93,6 +93,25 @@ class Unfortunate extends React.Component {
   }
 }
 
+class GameOverMan extends React.Component {
+  render() {
+    return (
+      <a href="../GameOverMan">
+        <div className="row link_style">
+          <div className="col post">
+            <img src="../Images/game_over_man.jpg" alt="" className="movie_image"></img>
+            <div className="title_overlay">Game Over, Man!</div>
+          </div>
+          <div className="col content">
+            <h3 className="post_head">An Unfortunate Tribute to it's Inspiration</h3>
+            <p className="post_content">...three bottom of the barrel housekeepers who spend much of their time discussing extremely idiotic ideas for businesses...That is until the hotel they are working at becomes the target of a massive takeover...</p>
+          </div>
+        </div>
+      </a>
+    )
+  }
+}
+
 
 class HeaderIMG extends React.Component {
   render() {
@@ -118,11 +137,12 @@ class App extends React.Component {
       <div>
         <HeaderIMG/>
         <div className="container-fluid main_body">
-          <EOTFW/>
-          <AlteredCarbon/>
-          <BlackMirror4/>
-          <EverythingSucks/>
+          <GameOverMan/>
           <Unfortunate/>
+          <EverythingSucks/>
+          <BlackMirror4/>
+          <AlteredCarbon/>
+          <EOTFW/>
         </div>
         <Footer/>
       </div>
