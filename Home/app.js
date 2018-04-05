@@ -112,6 +112,25 @@ class GameOverMan extends React.Component {
   }
 }
 
+class UpcomingOriginals extends React.Component {
+  render() {
+    return (
+      <a href="../UpcomingNetflixOriginals">
+        <div className="row link_style">
+          <div className="col post">
+            <img src="../Images/lost_in_space.jpg" alt="" className="movie_image"></img>
+            <div className="title_overlay">Upcoming Originals</div>
+          </div>
+          <div className="col content">
+            <h3 className="post_head">Upcoming, 2018 Netflix Originals</h3>
+            <p className="post_content">As always Netflix has an ever growing list of content in production so without further ado, here’s what you can look forward to in 2018.</p>
+          </div>
+        </div>
+      </a>
+    )
+  }
+}
+
 
 class HeaderIMG extends React.Component {
   render() {
@@ -137,6 +156,7 @@ class App extends React.Component {
       <div>
         <HeaderIMG/>
         <div className="container-fluid main_body">
+          <UpcomingOriginals/>
           <GameOverMan/>
           <Unfortunate/>
           <EverythingSucks/>
