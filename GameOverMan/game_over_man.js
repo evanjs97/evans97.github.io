@@ -11,7 +11,7 @@ class GameOverMan extends React.Component {
             <p>Game Over, Man! is Netflix’s newest original movie and like many other Netflix originals it’s a wonder
               they decided to finance it in the first place. In one sentence Game Over, Man! is a comedic tribute to
               Die Hard that goes a little too far.</p>
-            <p>From the creative minds behind Workaholics comes a movie that while similar in style to the show, does
+            <p>From the creative minds behind <a href="https://en.wikipedia.org/wiki/Workaholics" target="_blank">Workaholics</a> comes a movie that while similar in style to the show, does
               not live up to it. That said fans of Workaholics will not want to miss this movie that brings back the
               characters and shamelessness you love so much.</p>
             <p>Game Over, Man centers around three bottom of the barrel housekeepers who spend much of their time

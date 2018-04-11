@@ -13,14 +13,21 @@ class UpcomingOriginals extends React.Component {
             <img src="../Images/disenchantment.jpg" className="img-fluid text-center"></img>
             <p></p>
             <h5>Disenchantment</h5>
-            <p>Disenchantment is an animated adult sit-com from Matt Groening, and has two 10 episode seasons in the
+            <p>Disenchantment is an animated adult sit-com from
+              <a href="https://en.wikipedia.org/wiki/Matt_Groening" target="_blank"> Matt Groening</a>,
+              and has two 10 episode seasons in the
               works the first of which is scheduled to come out this year. This is one of the most exciting shows
               coming to Netflix this year as Matt Groening has a lot of success building animated comedies
-              (The Simpsons, Futurama). The series will follow a princess, her demon and her elf companion.</p>
+              (<a href="https://en.wikipedia.org/wiki/The_Simpsons" target="_blank">The Simpsons</a>,
+              <a href="https://en.wikipedia.org/wiki/Futurama" target="_blank"> Futurama</a>).
+              The series will follow a princess, her demon and her elf companion.</p>
             <img src="../Images/green_eggs_and_ham.jpg" className="img-fluid text-center"></img>
             <p></p>
             <h5>Green Eggs and Ham</h5>
-            <p>Based off the famous book by Dr. Seuss, Green Eggs and Ham from executive producer Ellen DeGeneres will
+            <p>Based off the famous book by
+              <a href="https://en.wikipedia.org/wiki/Dr._Seuss" target="_blank"> Dr. Seuss</a>,
+              Green Eggs and Ham from executive producer
+              <a href="https://en.wikipedia.org/wiki/Ellen_DeGeneres" target="_blank"> Ellen DeGeneres</a> will
               premiere later this year. The season is touted to have one of the largest budgets of any animated
               television series so it will no doubt be an impressive piece of work. We can only hope it’s as
               successful as Dr. Seuss’ other movie adaptations. The season will be 13 half-hour episodes in length.</p>
@@ -49,7 +56,8 @@ class UpcomingOriginals extends React.Component {
             <img src="../Images/watership_down.jpg" className="img-fluid text-center"></img>
             <p></p>
             <h5>Watership Down</h5>
-            <p>Based off the well-known 1972 novel of the same name by Richard Adams, Watership Down will be the 3rd
+            <p>Based off the well-known 1972 <a href="https://en.wikipedia.org/wiki/Watership_Down" target="_blank">novel </a>
+              of the same name by Richard Adams, Watership Down will be the 3rd
               adaptation of the novel, seeking to terrify another generation. The story follows a band of rabbits who
               seek a new home escaping the destruction of their old one. Watership Down will be another Netflix, BBC
               collaboration and will consist of 4 hour long episodes.</p>

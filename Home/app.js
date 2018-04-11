@@ -131,6 +131,25 @@ class UpcomingOriginals extends React.Component {
   }
 }
 
+class Unfortunate2 extends React.Component {
+  render() {
+    return (
+      <a href="../ASeriesOfUnfortunateEvents2">
+        <div className="row link_style">
+          <div className="col post">
+            <img src="../Images/a_series_of_unfortunate_events_2.jpeg" alt="" className="movie_image"></img>
+            <div className="title_overlay">A Series of Unfortunate Events</div>
+          </div>
+          <div className="col content">
+            <h3 className="post_head">A Repetitive, but Enjoyable Continuation</h3>
+            <p className="post_content">A series of unfortunate events season 2, picks up where its predecessor left off, continuing on its dark and inventive path.</p>
+          </div>
+        </div>
+      </a>
+    )
+  }
+}
+
 
 class HeaderIMG extends React.Component {
   render() {
@@ -156,6 +175,7 @@ class App extends React.Component {
       <div>
         <HeaderIMG/>
         <div className="container-fluid main_body">
+          <Unfortunate2/>
           <UpcomingOriginals/>
           <GameOverMan/>
           <Unfortunate/>

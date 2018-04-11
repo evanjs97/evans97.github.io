@@ -10,11 +10,13 @@ class Unfortunate extends React.Component {
           <div className="col-xs-12 col-sm-10 col-md-8 col-lg-6">
             <p>This week I will be breaking tradition and reviewing an older Netflix original in order to prepare for
               season 2 of A Series of Unfortunate Events which will release on March 30th!</p>
-            <p>A series of unfortunate events is based off the book of the same name by Lemony Snicket (Daniel Handler),
+            <p>A series of unfortunate events is based off the book of the same name by Lemony Snicket
+              <a href="https://en.wikipedia.org/wiki/Daniel_Handler" target="_blank">(Daniel Handler)</a>,
               and follows the lives of the Baudelaire children after the death of their parents. The series follows the
               books remarkably well and will satisfy any avid fan of the written series. Now for those who don’t
               already know the story, here it is.</p>
-            <p>In this weird and dark (but not) comedy, we see the villain Count Olaf (Neil Patrick Harris), a
+            <p>In this weird and dark (but not) comedy, we see the villain Count Olaf
+              <a href="https://en.wikipedia.org/wiki/Neil_Patrick_Harris" target="_blank">(Neil Patrick Harris)</a>, a
               remarkably stupid individual, be outwitted by the Baudelaire children numerous times. He along with
               nearly every other adult in the series is portrayed as quite foolish and incompetent to quite comedic
               proportions. On the other hand the Baudelaire children are quite intelligent, unusual and talented.
@@ -28,7 +30,8 @@ class Unfortunate extends React.Component {
               and over and over again. In fact that is one of the prevailing messages in the show, even in the most
               helpless of situations the children persevere.</p>
             <p>Central to the show and the written series is Lemony Snicket, the narrator and author of the book.
-              Lemony Snicket (Patrick Warburton) interrupts the fourth wall early and often to the point that it
+              Lemony Snicket <a href="https://en.wikipedia.org/wiki/Patrick_Warburton" target="_blank">(Patrick Warburton)</a>
+              interrupts the fourth wall early and often to the point that it
               doesn’t really feel like he’s interrupting it anymore. His narration provides definitions and dry
               commentary. This storytelling is essential to the development of the adventure, helping to shape it
               and bring it back to earth during some of the more fantastical occurrences.</p>
