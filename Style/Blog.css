@@ -16,13 +16,6 @@
 
 }
 
-/*.body_style {*/
-    /*background-color: rgba(62, 69, 81, 0.1);*/
-    /*margin-top: 2em;*/
-    /*color: black;*/
-    /*text-align: center;*/
-/*}*/
-
 .post_head {
     font-family: "Times New Roman", Times, serif;
 }
@@ -36,6 +29,10 @@
     background-repeat: no-repeat;
     color: white;
 
+}
+
+.list_title {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .row-eq-height {
@@ -99,6 +96,11 @@
 .movie_image {
     width: 100%;
     padding:0;
+}
+
+.fav_list {
+    padding: 4em;
+    padding-top: 2em;
 }
 
 .main_body a:hover{
