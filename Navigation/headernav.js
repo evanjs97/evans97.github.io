@@ -19,6 +19,9 @@ class NavBar extends React.Component {
               <a className="nav-link" href="../Home">Home</a>
             </li>
             <li className="nav-item nav_item">
+              <a className="nav-link" href="../BeyondNetflix">Beyond Netflix</a>
+            </li>
+            <li className="nav-item nav_item">
               <a className="nav-link" href="../About">About Me</a>
             </li>
           </ul>

@@ -8,12 +8,18 @@
     padding-bottom: .25em;
 }
 
+.light_title{
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+    padding-bottom: .25em;
+    font-weight: normal;
+}
+
 .about_style {
     background-color: rgba(62, 69, 81, 0.1);
     margin: 0;
     color: black;
     text-align: center;
-
 }
 
 .post_head {

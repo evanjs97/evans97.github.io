@@ -3,13 +3,18 @@
     .nav_item {font-size: .4em; padding-top: .6em; padding-left: .6em}
 }
 @media (min-width: 320px) {
-    .title {font-size: .8em}
-    .nav_item {font-size: .6em; padding-top: .6em; padding-left: 1em}
+    .title {font-size: .6em}
+    .nav_item {font-size: .5em; padding-top: .6em; padding-left: .6em}
+}
+
+@media (min-width: 540px) {
+    .title {font-size: .9em}
+    .nav_item {font-size: .6em; padding-top: .6em; padding-left: 3em}
 }
 
 @media (min-width: 544px) {
     .title {font-size: 1.0em}
-    .nav_item {font-size: .8em; padding-top: .6em; padding-left: 5em}
+    .nav_item {font-size: .6em; padding-top: .6em; padding-left: 4em}
 }
 
 @media (min-width: 768px) {
