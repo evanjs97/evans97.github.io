@@ -18,6 +18,94 @@ class ActionCol extends React.Component {
   }
 }
 
+class TopAll extends React.Component {
+  render(){
+    return(
+      <div>
+        <h2 className="section_title pb-0">Beyond Netflix</h2>
+        <h2 className="section_title">Top 10 Movies You Maybe Haven't Seen</h2>
+        <div className="row text-left">
+          <div className="col-xs-0 col-sm-1 col-md-2 col-lg-3"></div>
+          <div className="col-xs-12 col-sm-10 col-md-8 col-lg-6">
+            <p></p>
+            <img src="../Images/10list/catch_me_if_you_can.jpg" className="img-fluid text-center"></img>
+            <p>Catch me if you can has all the big names, directed by Steven Spielberg and starring Leonardo DiCaprio
+              among others. The film was released and 2002 and is a biographical film following the life of Frank
+              Abagnale, a criminal whose primary crime was check fraud. If you haven’t given in a watch already
+              it is well worth one.</p>
+            <h5>Catch Me if You Can</h5>
+            <p></p>
+            <img src="../Images/10list/tucker_and_dale_vs_evil.jpg" className="img-fluid text-center"></img>
+            <p></p>
+            <h5>Tucker and Dale vs. Evil</h5>
+            <p>Tucker and Dale vs. Evil is a comedy horror film following two average hillbillies camping at their cabin.
+              The horror starts when they are mistaken for killers by a group of college students. Tucker and Dale is a
+              very enjoyable horror movie and is even streaming on Netflix right now.</p>
+            <img src="../Images/10list/along_came_a_spider.jpg" className="img-fluid text-center"></img>
+            <p></p>
+            <h5>Along Came a Spider</h5>
+            <p>Along Came a Spider is a psychological horror movie based off the second book of the same name from
+              the Alex Cross Series. The story follows detective (Morgan Freeman) as he uncovers clues surrounding
+              the kidnapping of the president’s daughter. Along Came a Spider is worth the watch regardless of
+              whether you’ve read the book or not.</p>
+            <img src="../Images/10list/nightcrawler.jpg" className="img-fluid text-center"></img>
+            <p></p>
+            <h5>Nightcrawler</h5>
+            <p>Nightcrawler is a thriller following Jake Gyllenhaal as Louis Bloom. Bloom is a 'stringer' who records
+              violent events in the night and sells them to a local news station. The movie was nominated for best
+              original screenplay and is certainly worth the watch.</p>
+            <img src="../Images/10list/drive.jpg" className="img-fluid text-center"></img>
+            <p></p>
+            <h5>Drive</h5>
+            <p>Drive is yet another crime thriller on this list. Starring Ryan Gosling, drive follows his harrowing
+              nights as a getaway driver for all sorts of criminals. The film was released in 2011 and received lots
+              of critical appraise.</p>
+            <img src="../Images/10list/argo.jpg" className="img-fluid text-center"></img>
+            <p></p>
+            <h5>Argo</h5>
+            <p>Released in 2012 to huge critical praise, Argo is probably the most well-known movie on this list. This
+              historical drama adapted from multiple accounts of the "Canadian Caper", a joint CIA and Canadian
+              Government rescue operation of 6 American diplomats. Although you may have already seen this title,
+              it is a must watch if you haven't.</p>
+            <img src="../Images/10list/memento.jpg" className="img-fluid text-center"></img>
+            <p></p>
+            <h5>Memento</h5>
+            <p>Memento is a thriller movie released in 2000 (Yes I know I like thrillers). The story revolves around
+              a man who is unable to form new memories, suffering short term memory loss every few minutes. He uses
+              photographs and tattoos to track information as he tracks his wife's killer. Memento is a complex
+              masterpiece and it will take many viewings to fully understand everything that is going on in its plot.</p>
+            <img src="../Images/10list/battle_royale.jpg" className="img-fluid text-center"></img>
+            <p></p>
+            <h5>Battle Royale</h5>
+            <p>This Japanese film is essentially the hunger games, before the hunger games existed. Sadly it did not
+              receive nearly as much attention as the latter series did despite its similarities. It is quite possible
+              the hunger games was based off this movie. If you are a fan of the hunger games or just want to see a
+              great foreign language film, this movie is for you.</p>
+            <img src="../Images/10list/man_from_uncle.jpg" className="img-fluid text-center"></img>
+            <p></p>
+            <h5>Man From Uncle</h5>
+            <p>Although the Man from Uncle did not receive great critical reviews, it is an extremely entertaining
+              action, spy, comedy. Set during the cold war, the story follows a CIA and KGB agent who must work
+              together to stop and international criminal organization. Great spy movies are hard to come by, but
+              the Man from Uncle is one of the best.</p>
+            <img src="../Images/10list/wild_tales.jpg" className="img-fluid text-center"></img>
+            <p></p>
+            <h5>Wild tales</h5>
+            <p>This Argentine-Spanish film is one of the most unique on this list. Wild Tales is a black comedy
+              consisting of six short stories. The stories are all quite different and could easily stand on their
+              own. If you are thinking this sounds like black mirror, then yes you are correct, this is certainly a
+              black mirroresque movie. Wild tales plays on similar themes as black mirror such as violence and
+              vengeance. If you are a fan of black mirror this is the movie for you. Wild Tales is smart, funny
+              and very well put together.</p>
+
+          </div>
+          <div className="col-xs-0 col-sm-1 col-md-2 col-lg-3"></div>
+        </div>
+      </div>
+    )
+  }
+}
+
 class ComedyCol extends React.Component {
   render() {
     return (
@@ -54,12 +142,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="post_page">
-        <h1>Beyond Netflix</h1>
-        <div className="row fav_list">
-            <ActionCol/>
-            <ComedyCol/>
-            <DramaCol/>
-        </div>
+        <TopAll/>
       </div>
     )
   }
