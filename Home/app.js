@@ -150,6 +150,25 @@ class Unfortunate2 extends React.Component {
   }
 }
 
+class ThreePercent1 extends React.Component {
+  render() {
+    return (
+      <a href="../ThreePercent">
+        <div className="row link_style">
+          <div className="col post">
+            <img src="../Images/3%25.jpg" alt="" className="movie_image"></img>
+            <div className="title_overlay">3% Season 1</div>
+          </div>
+          <div className="col content">
+            <h3 className="post_head">A Remarkably Fresh Outlook on a Similar Concept</h3>
+            <p className="post_content">3% is a Brazilian TV-series that takes place in a dystopian world where 3 percent of the population is allowed to leave the impoverished world each year and join the "better society"...</p>
+          </div>
+        </div>
+      </a>
+    )
+  }
+}
+
 
 class HeaderIMG extends React.Component {
   render() {
@@ -175,6 +194,7 @@ class App extends React.Component {
       <div>
         <HeaderIMG/>
         <div className="container-fluid main_body">
+          <ThreePercent1/>
           <Unfortunate2/>
           <UpcomingOriginals/>
           <GameOverMan/>
