@@ -183,7 +183,41 @@ class HeaderIMG extends React.Component {
 class Footer extends React.Component {
   render() {
     return(
-      <div className="footer"></div>
+      <div className="footer">
+        <h2 className="blog_roll_title">Blog Roll</h2>
+        <div className="row blog_roll">
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="https://www.alternateending.com/" target="_blank">alternateending.com</a>
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="https://movieweb.com/" target="_blank">movieweb.com</a>
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="https://moviepilot.com/" target="_blank">moviepilot.com</a>
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="https://wolfcrow.com/" target="_blank">wolfcrow.com</a>
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="https://flixable.com/" target="_blank">flixable.com</a>
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="https://batteriedecuisineblog.com/" target="_blank">batteriedcuisineblog.com</a>
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="https://novelnavigators.com/" target="_blank">novelnavigators.com</a>
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="https://pixelatedtale.wordpress.com/" target="_blank">pixelatedtale.com</a>
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="https://withoutthesalt.wordpress.com/" target="_blank">withoutthesalt.com</a>
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="https://jammingwithphriends.wordpress.com/" target="_blank">jammingwithphriends.com</a>
+          </div>
+        </div>
+      </div>
     )
   }
 }

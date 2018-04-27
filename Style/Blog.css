@@ -63,9 +63,12 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+
+
 .footer{
     padding: 4em;
-    background-color: #d50000;
+    background-color: #212121;
+    color: #d50000;
 }
 
 .main_body {
@@ -126,4 +129,13 @@
     bottom: 10%;
     left: 10%;
     background: rgba(0, 0, 0, 0.5);
+}
+
+.blog_roll_title {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.blog_roll a{
+    color: #d50000;
 }

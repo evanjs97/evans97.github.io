@@ -35,6 +35,7 @@
     }
     .link_style p{font-size:.45em;}
     .header_image{padding-top:3em}
+    .footer {text-align: center;}
 
 }
 @media (min-width: 544px) {
@@ -53,6 +54,7 @@
     .link_style p{font-size:.5em;}
     .title_overlay{font-size:.8em}
     .header_image{padding-top:3.6em}
+    .footer {text-align: left;}
 }
 
 @media (min-width: 768px) {
@@ -68,6 +70,7 @@
     }
     .link_style p{font-size:.65em;}
     .header_image{padding-top:3.5em}
+
 
 }
 @media (min-width: 850px) {
