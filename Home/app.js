@@ -169,6 +169,21 @@ class ThreePercent1 extends React.Component {
   }
 }
 
+class AlteredCarbonSpoilerTrailer extends React.Component {
+  render() {
+    return(
+      <div className="row link_style">
+        {/*<div className="col post">*/}
+          <iframe className="video" src="https://www.youtube.com/embed/Jwn1zaScKkI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        {/*</div>*/}
+        {/*// <div className="col content">*/}
+        {/*//*/}
+        {/*// </div>*/}
+      </div>
+    )
+  }
+}
+
 
 class HeaderIMG extends React.Component {
   render() {
@@ -228,6 +243,7 @@ class App extends React.Component {
       <div>
         <HeaderIMG/>
         <div className="container-fluid main_body">
+          <AlteredCarbonSpoilerTrailer/>
           <ThreePercent1/>
           <Unfortunate2/>
           <UpcomingOriginals/>

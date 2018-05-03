@@ -9,6 +9,11 @@
     .content {display:none;}
     .title_overlay{font-size:.8em}
     .header_image{padding-top:2.8em}
+    .video {
+        margin: 0 auto;
+        width: 200px;
+        height: 100px;
+    }
 }
 @media (min-width: 320px) {
     h1 {font-size: 1em}
@@ -22,6 +27,11 @@
     .content {display:none;}
     .title_overlay{font-size:1.1em}
     .header_image{padding-top:3em}
+    .video {
+        margin: 0 auto;
+        width: 245px;
+        height: 140px;
+    }
 
 }
 @media (min-width: 480px){
@@ -36,6 +46,11 @@
     .link_style p{font-size:.45em;}
     .header_image{padding-top:3em}
     .footer {text-align: center;}
+    .video {
+        margin: 0 auto;
+        width: 400px;
+        height: 200px;
+    }
 
 }
 @media (min-width: 544px) {
@@ -55,6 +70,11 @@
     .title_overlay{font-size:.8em}
     .header_image{padding-top:3.6em}
     .footer {text-align: left;}
+    .video {
+        margin: 0 auto;
+        width: 400px;
+        height: 220px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -70,6 +90,11 @@
     }
     .link_style p{font-size:.65em;}
     .header_image{padding-top:3.5em}
+    .video {
+        margin: 0 auto;
+        width: 500px;
+        height: 300px;
+    }
 
 
 }
